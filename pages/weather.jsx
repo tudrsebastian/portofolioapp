@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import WeatherApp from "../public/assets/projects/WeatherApp.png";
+import WeatherApp from "../public/assets/projects/weather.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WeatherApp from "../public/assets/projects/WeatherApp.png";
+import WeatherApp from "../public/assets/projects/weather.png";
 
 import ProjectItem from "./ProjectItem";
 
