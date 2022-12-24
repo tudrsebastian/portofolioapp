@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import WeatherApp from "../public/assets/projects/weather.png";
+import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const weather = () => {
+const crypto = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,11 +13,11 @@ const weather = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={WeatherApp}
+          src={cryptoxchange}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">WeatherApp</h2>
+          <h2 className="py-2">Crypto X-Change</h2>
           <h3>NextJS / Tailwind </h3>
         </div>
       </div>
@@ -27,20 +27,18 @@ const weather = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using NextJS and is hosted on Vercel. Users are
-            able to search the weather anywhere they want and get live data.
-            When you first login a popup will ask for your location so it can
-            display the weather based on it.
+            A simple app tracking crypto coins evolution and giving some
+            specific details about them.
           </p>
           <a
-            href="https://github.com/tudrsebastian/weather-nextjs"
+            href="https://github.com/tudrsebastian/cryptoxchange-nextjs"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://weather-nextjs-68dgnt348-tudrsebastian.vercel.app"
+            href="https://cryptoxchange-eight.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,13 +53,16 @@ const weather = () => {
                 <RiRadioButtonFill className="pr-1" /> NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Auth0
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> OpenWeatherMap API
+                <RiRadioButtonFill className="pr-1" /> CoinGecko API
               </p>
             </div>
           </div>
@@ -74,4 +75,4 @@ const weather = () => {
   );
 };
 
-export default weather;
+export default crypto;

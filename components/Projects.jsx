@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import WeatherApp from "../public/assets/projects/weather.png";
+import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
 
 import ProjectItem from "./ProjectItem";
 
@@ -18,6 +19,12 @@ const Projects = () => {
             title="Weather App"
             backgroundImg={WeatherApp}
             projectUrl="/weather"
+            tech="NextJS"
+          />
+          <ProjectItem
+            title="Crypto App"
+            backgroundImg={cryptoxchange}
+            projectUrl="/crypto"
             tech="NextJS"
           />
         </div>
