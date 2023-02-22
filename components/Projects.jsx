@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import WeatherApp from "../public/assets/projects/weather.png";
 import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
+import movieflixapp from "../public/assets/projects/movieflixapp.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -27,6 +28,12 @@ const Projects = () => {
             projectUrl="/crypto"
             tech="NextJS"
           />
+          <ProjectItem
+            title="Movieflix App"
+            backgroundImg={movieflixapp}
+            projectUrl="/movieflix"
+            tech="Vite+ReactJS"
+          />
         </div>
       </div>
     </div>
@@ -34,22 +41,3 @@ const Projects = () => {
 };
 
 export default Projects;
-// <ProjectItem
-// title='Twitch UI'
-// backgroundImg={twitchImg}
-// projectUrl='/twitch'
-// tech='Next JS'
-
-// />
-// <ProjectItem
-// title="Netflix App"
-// backgroundImg={netflixImg}
-// projectUrl="/netflix"
-// tech="React JS"
-// />
-// <ProjectItem
-// title="Crypto App"
-// backgroundImg={cryptoImg}
-// projectUrl="/crypto"
-// tech="NextJS"
-// />
