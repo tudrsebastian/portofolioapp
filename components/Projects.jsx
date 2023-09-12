@@ -4,7 +4,7 @@ import React from "react";
 import WeatherApp from "../public/assets/projects/weather.png";
 import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
 import movieflixapp from "../public/assets/projects/movieflixapp.png";
-
+import sharelinkImg from "../public/assets/projects/sharelink.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -33,6 +33,12 @@ const Projects = () => {
             backgroundImg={movieflixapp}
             projectUrl="/movieflix"
             tech="Vite+ReactJS"
+          />
+          <ProjectItem
+            title="Sharelink App"
+            backgroundImg={sharelinkImg}
+            projectUrl="/sharelink"
+            tech="Vite+SvelteKit"
           />
         </div>
       </div>
