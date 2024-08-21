@@ -1,10 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-
-const crypto = () => {
+import RenovariHub from "../public/assets/projects/RenovariHub.png"
+const renovarihub = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +12,12 @@ const crypto = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={cryptoxchange}
+          src={RenovariHub}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto X-Change</h2>
-          <h3>NextJS / Tailwind </h3>
+          <h2 className="py-2">Renovari Hub</h2>
+          <h3> JavaScript / CSS </h3>
         </div>
       </div>
 
@@ -27,18 +26,17 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A simple app tracking crypto coins evolution and giving some
-            specific details about them.
+            A website for a construction company based in Bucharest.
           </p>
           <a
             href="https://github.com/tudrsebastian/cryptoxchange-nextjs"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8" disabled>Code: Not Available</button>
           </a>
           <a
-            href="https://cryptoxchange-eight.vercel.app"
+            href="https://renovarihub.ro/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,19 +48,14 @@ const crypto = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> NextJS
+                <RiRadioButtonFill className="pr-1" /> HTML5
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Auth0
+                <RiRadioButtonFill className="pr-1" /> CSS3
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
+
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CoinGecko API
               </p>
             </div>
           </div>
@@ -75,4 +68,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default renovarihub;

@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import WeatherApp from "../public/assets/projects/weather.png";
 import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
+import RenovariHub from "../public/assets/projects/RenovariHub.png";
 import movieflixapp from "../public/assets/projects/movieflixapp.png";
 import sharelinkImg from "../public/assets/projects/sharelink.png";
 import ProjectItem from "./ProjectItem";
@@ -24,9 +25,9 @@ const Projects = () => {
           />
           <ProjectItem
             title="Crypto App"
-            backgroundImg={cryptoxchange}
-            projectUrl="/crypto"
-            tech="NextJS"
+            backgroundImg={RenovariHub}
+            projectUrl="/renovarihub"
+            tech="JavaScript"
           />
           <ProjectItem
             title="Movieflix App"
