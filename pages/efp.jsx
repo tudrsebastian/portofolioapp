@@ -28,7 +28,7 @@ const efp = () => {
           <h2>Overview</h2>
           <p>
             This website was built using SvelteKit and is hosted on Vercel.
-            It's a simple website for eco friendly cups that will help customers
+            It is a simple website for eco friendly cups that will help customers
             get in touch with the producers of the cups either by email or by calling them directly.
           </p>
           <a
