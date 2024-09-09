@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WeatherApp from "../public/assets/projects/weather.png";
-import cryptoxchange from "../public/assets/projects/CryptoXchange.JPG";
+import Efp from "../public/assets/projects/efp.png";
 import RenovariHub from "../public/assets/projects/RenovariHub.png";
 import movieflixapp from "../public/assets/projects/movieflixapp.png";
 import sharelinkImg from "../public/assets/projects/sharelink.png";
@@ -18,28 +17,28 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Weather App"
-            backgroundImg={WeatherApp}
-            projectUrl="/weather"
-            tech="NextJS"
+            title="Eco Friendly Packing"
+            backgroundImg={Efp}
+            projectUrl="/efp"
+            tech="SvelteKit"
           />
           <ProjectItem
-            title="Crypto App"
+            title="Renovari Hub"
             backgroundImg={RenovariHub}
             projectUrl="/renovarihub"
-            tech="JavaScript"
+            tech="JavaScript + JQuery"
           />
           <ProjectItem
             title="Movieflix App"
             backgroundImg={movieflixapp}
             projectUrl="/movieflix"
-            tech="Vite+ReactJS"
+            tech="Vite + ReactJS"
           />
           <ProjectItem
             title="Sharelink App"
             backgroundImg={sharelinkImg}
             projectUrl="/sharelink"
-            tech="Vite+SvelteKit"
+            tech="Vite + SvelteKit"
           />
         </div>
       </div>

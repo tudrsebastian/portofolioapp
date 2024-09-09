@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import WeatherApp from "../public/assets/projects/weather.png";
+import Efp from "../public/assets/projects/efp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const weather = () => {
+const efp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const weather = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={WeatherApp}
+          src={Efp}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">WeatherApp</h2>
-          <h3>NextJS / Tailwind </h3>
+          <h2 className="py-2">Eco Friendly Packing</h2>
+          <h3>SvelteKit </h3>
         </div>
       </div>
 
@@ -27,24 +27,23 @@ const weather = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using NextJS and is hosted on Vercel. Users are
-            able to search the weather anywhere they want and get live data.
-            When you first login a popup will ask for your location so it can
-            display the weather based on it.
+            This website was built using SvelteKit and is hosted on Vercel.
+            It's a simple website for eco friendly cups that will help customers
+            get in touch with the producers of the cups either by email or by calling them directly.
           </p>
           <a
             href="https://github.com/tudrsebastian/weather-nextjs"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8" disabled>Code: Not Available</button>
           </a>
           <a
-            href="https://weather-nextjs-68dgnt348-tudrsebastian.vercel.app"
+            href="https://www.pahareecofriendly.ro/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className="px-8 py-2 mt-4">Live</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -52,16 +51,13 @@ const weather = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> NextJS
+                <RiRadioButtonFill className="pr-1" /> SvelteKit
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> SCSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> OpenWeatherMap API
+                <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
             </div>
           </div>
@@ -74,4 +70,4 @@ const weather = () => {
   );
 };
 
-export default weather;
+export default efp;

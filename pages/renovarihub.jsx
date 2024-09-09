@@ -17,7 +17,7 @@ const renovarihub = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Renovari Hub</h2>
-          <h3> JavaScript / CSS </h3>
+          <h3> JavaScript / JQuery / CSS </h3>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ const renovarihub = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className="px-8 py-2 mt-4">Live</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -55,7 +55,10 @@ const renovarihub = () => {
               </p>
 
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> JavaScript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JQuery
               </p>
             </div>
           </div>
